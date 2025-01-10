@@ -1,6 +1,6 @@
 # pmd-dungeon-name-generator
 
-Check it the page here: https://garpanova.github.io/pmd-dungeon-name-generator
+Check out the page here: https://garpanova.github.io/pmd-dungeon-name-generator
 
 ## Credits:
 The amazing Wonder Mail font was taken from here: https://www.dafont.com/wonder-mail.font
