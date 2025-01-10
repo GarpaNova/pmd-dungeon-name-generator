@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Wondermail;
+    src: URL('assets/wondermail.ttf') format('truetype');
+}
+
+body {
+    margin: 2rem;
+    background-image: url(assets/looping_blurred_map.png);
+    background-repeat: repeat;
+    font-family: Wondermail;
+    color: white;
+}
+
+ul {
+    display: block;
+    padding: 0;
+    height: calc(100vh - 4rem);
+    overflow: visible scroll;
+    list-style-type: none;
+    font-size: 2rem;
+    
+    scrollbar-color: white #00000000;
+    scrollbar-width: thin;
+
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+li:first-child {
+    font-size: 3rem;
+}
